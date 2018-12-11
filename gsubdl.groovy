@@ -1,6 +1,7 @@
 @Grapes([
 	@Grab( group = "org.codehaus.groovy", module = "groovy-xmlrpc", version = "0.7" ),
-	@Grab( group = "org.igniterealtime.smack", module = "smack", version = "3.1.0" )])
+	@Grab( group = "org.igniterealtime.smack", module = "smack", version = "3.1.0" )
+])
 @GrabExclude("jivesoftware:smack")
 import groovy.net.xmlrpc.XMLRPCServerProxy
 import java.util.zip.ZipInputStream
